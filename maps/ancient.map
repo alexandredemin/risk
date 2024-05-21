@@ -1,0 +1,94 @@
+[Map]
+author=Rob Werhand
+image=Empire of Alexander.bmp
+wrap=yes
+scroll=none
+warn=yes
+
+[Continents]
+Empire=6
+Europe=2
+Asiatica=3
+Arabia=2
+Africa=1
+
+[Territories]
+Macedon,215,198,Empire,Southern Greece,Thrace,Northern Greece
+Thrace,266,179,Empire,Mynia,Rithynia,Macedon,Gentae,Modern Hungary,Modern Austria,Northern Greece
+Rithynia,336,238,Empire,Phrygia,Paphasinia,Thrace
+Mynia,299,260,Empire,Phrygia,Lydia,Thrace
+Lydia,290,288,Empire,Phrygia,Caria,Mynia
+Phrygia,350,278,Empire,Cappadocia,Lycaonia,Pisidia,Paphasinia,Rithynia,Mynia,Lydia,Caria
+Southern Greece,180,290,Empire,Crete,Macedon,Northern Greece,Sicilia
+Caria,288,313,Empire,Rhodes,Lycaonia,Pisidia,Phrygia,Lydia
+Lycaonia,374,328,Empire,Cyprus,Cappadocia,Caria,Pisidia,Phrygia
+Pisidia,327,317,Empire,Lycaonia,Caria,Phrygia
+Paphasinia,391,231,Empire,Cappadocia,Phrygia,Rithynia
+Cappadocia,425,292,Empire,Armenia,Syria,Pontus Polemoniacus,Paphasinia,Phrygia,Lycaonia
+Phoenicia,427,385,Empire,Syria,Cyprus
+Syria,474,371,Empire,Eastern Egypt,Arabia Petraea,Strata Regio,Phoenicia,Mesopotamia,Armenia,Cappadocia
+Armenia,531,296,Empire,Media,Hyrcania,Mesopotamia,Iberia,Pontus Polemoniacus,Cappadocia,Syria
+Mesopotamia,557,385,Empire,Strata Regio,Babylonia,Media,Syria,Armenia
+Media,681,403,Empire,Babylonia,Susiana,Persia,Carmania,Aria,Hyrcania,Mesopotamia,Armenia
+Babylonia,594,457,Empire,Themi,Strata Regio,Susiana,Media,Mesopotamia
+Cyprus,366,377,Empire,Phoenicia,Lycaonia
+Crete,216,348,Empire,Western Egypt,Rhodes,Southern Greece
+Susiana,670,470,Empire,Babylonia,Media,Persia
+Persia,742,529,Empire,Susiana,Media,Carmania
+Carmania,815,522,Empire,Persia,Media,Aria,Gedrrosia
+Gedrrosia,931,554,Empire,Carmania,Drangiana,Arachosia,Taxica
+Drangiana,918,471,Empire,Gedrrosia,Arachosia,Aria,Zarangaei
+Arachosia,1012,450,Empire,Gedrrosia,Paropamisus,Taxica,Drangiana
+Parthyria,806,354,Empire,Chorasmii,Bactria,Zarangaei,Hyrcania,Aria
+Bactria,966,335,Empire,Astaceni,Chorasmii,Sogdiana,Taxica,Paropamisus,Zarangaei,Parthyria
+Sogdiana,972,254,Empire,Xenippa,Scythia,Bactria
+Hyrcania,740,362,Empire,Chorasmii,Parthyria,Media,Armenia,Iberia,Aria
+Aria,821,426,Empire,Carmania,Drangiana,Zarangaei,Parthyria,Media,Hyrcania
+Zarangaei,900,390,Empire,Bactria,Paropamisus,Drangiana,Aria,Parthyria
+Paropamisus,1009,380,Empire,Bactria,Arachosia,Taxica,Zarangaei
+Taxica,1115,414,Empire,Gedrrosia,Musicani & Bracmani,Hyphasis River,Caucasus Mons,Bactria,Paropamisus,Arachosia,Astaceni
+Western Egypt,265,532,Empire,Eastern Egypt,Crete,Libya,Africa Major
+Eastern Egypt,325,544,Empire,Western Egypt,Nubia,Syria,Arabia Petraea
+Rhodes,275,343,Empire,Caria,Crete
+Northern Greece,162,211,Europe,Southern Greece,Thrace,Macedon,Modern Austria,Italia
+Sicilia,73,267,Europe,Southern Greece,Italia
+Italia,73,148,Europe,Sicilia,Modern Austria,Northern Greece
+Gentae,323,77,Europe,Thrace,Taurica & Cheronesus,Modern Hungary
+Taurica & Cheronesus,476,73,Europe,Albania,Gentae
+Albania,559,139,Europe,North of the Caspian Sea,Iberia,Pontus Polemoniacus,Taurica & Cheronesus
+Iberia,599,247,Europe,Hyrcania,Armenia,Pontus Polemoniacus,Albania
+Pontus Polemoniacus,487,257,Europe,Armenia,Cappadocia,Iberia,Albania
+Modern Austria,100,71,Europe,Thrace,Modern Hungary,Northern Greece,Italia
+Modern Hungary,215,79,Europe,Thrace,Gentae,Modern Austria
+Scythia,908,201,Asiatica,Asiatica Major,Jazaries River,Orus River Delta,Sogdiana,Chorasmii
+Chorasmii,808,272,Asiatica,Scythia,Bactria,Parthyria,Hyrcania,Aricae,Orus River Delta
+Aricae,761,192,Asiatica,Asiatica Major,Chorasmii
+Orus River Delta,842,193,Asiatica,Scythia,Chorasmii
+Jazaries River,884,138,Asiatica,Asiatica Major,Scythia
+Hyphasis River,1209,417,Asiatica,Musicani & Bracmani,Taxica,Astaceni
+Caucasus Mons,1137,342,Asiatica,Taxica,Astaceni
+Xenippa,1059,231,Asiatica,Astaceni,Sogdiana,Asiatica Major
+Astaceni,1155,263,Asiatica,Hyphasis River,Caucasus Mons,Bactria,Xenippa,Asiatica Major,Taxica
+Musicani & Bracmani,1154,516,Asiatica,Piracx,Taxica,Hyphasis River
+Piracx,1191,598,Asiatica,Musicani & Bracmani
+Asiatica Major,1017,106,Asiatica,Astaceni,Xenippa,Scythia,Jazaries River,Aricae,North of the Caspian Sea
+North of the Caspian Sea,688,69,Asiatica,Asiatica Major,Albania
+Arabia Petraea,363,502,Arabia,Eastern Egypt,Syria,Nabathaei,Strata Regio
+Nabathaei,442,529,Arabia,Arabia Petraea,Thimanitae,Carraei,Themi,Strata Regio
+Thimanitae,446,597,Arabia,Nabathaei,Carraei,Thamudaei
+Strata Regio,489,456,Arabia,Arabia Petraea,Nabathaei,Themi,Babylonia,Mesopotamia,Syria
+Themi,576,526,Arabia,Nabathaei,Ichthyophagi Macae,Carraei,Babylonia,Strata Regio
+Thamudaei,507,640,Arabia,Thimanitae,Carraei,Ararena,Cassanitae
+Ichthyophagi Macae,732,673,Arabia,Sachalitae & Sacalitae,Solitudines Arenosa,Carraei,Themi
+Sachalitae & Sacalitae,849,716,Arabia,Homeritae,Solitudines Arenosa,Ichthyophagi Macae
+Ararena,570,678,Arabia,Thamudaei,Cassanitae,Solitudines Arenosa,Carraei
+Solitudines Arenosa,672,700,Arabia,Cassanitae,Homeritae,Sachalitae & Sacalitae,Ichthyophagi Macae,Ararena,Carraei
+Carraei,594,604,Arabia,Nabathaei,Thimanitae,Thamudaei,Ichthyophagi Macae,Solitudines Arenosa,Ararena,Themi
+Homeritae,707,772,Arabia,Cassanitae,Solitudines Arenosa,Sachalitae & Sacalitae
+Cassanitae,581,749,Arabia,Thamudaei,Ararena,Solitudines Arenosa,Homeritae
+Libya,118,547,Africa,Western Egypt,Africa Major
+Nubia,410,737,Africa,Africa Major,Meroe Peninsula,Auxumitae,Eastern Egypt
+Africa Major,173,720,Africa,Western Egypt,Libya,Serbiti,Meroe Peninsula,Nubia
+Serbiti,287,783,Africa,Africa Major,Meroe Peninsula
+Meroe Peninsula,341,761,Africa,Africa Major,Serbiti,Auxumitae,Nubia
+Auxumitae,395,788,Africa,Meroe Peninsula,Nubia
